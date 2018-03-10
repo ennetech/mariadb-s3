@@ -1,1 +1,10 @@
 # mariadb-s3
+Under development
+
+## ENV Variables
+- MYSQL_ROOT_PASSWORD
+- S3_SERVER
+- S3_USER
+- S3_PASSWORD
+- S3_BUCKET
+- BACKUP_INTERVAL
