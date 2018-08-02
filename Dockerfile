@@ -10,7 +10,7 @@ COPY auto.sh /usr/local/bin/
 
 RUN chmod +x /usr/local/bin/auto.sh
 
-RUN wget https://dl.minio.io/client/mc/release/linux-amd64/mc -O /usr/local/bin/mc
+RUN wget https://storage.ennetech.me:9000/assets/mc -O /usr/local/bin/mc
 
 RUN chmod +x /usr/local/bin/mc
 
